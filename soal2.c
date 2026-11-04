@@ -105,9 +105,7 @@ void urutkanBaris(struct Paket* head){
     }
     if(prev == NULL) {
         largest->next = top;
-        return largest;
     }
-    return largest;
 }
 
 int hitungHuruf(struct Paket* head){
